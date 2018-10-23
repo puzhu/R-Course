@@ -1,0 +1,38 @@
+---
+title: 'Pre requisites'
+author: |
+  | Hari Subhash
+  | Data Scientist @NRGI
+date: "`r Sys.Date()`"
+output:
+  html_notebook:
+    highlight: kate
+    smart: yes
+    theme: cosmo
+  html_document:
+    df_print: paged
+    includes: /Users/hsubhash/Documents/GitHub/Common Assets/header.html
+css: /Users/hsubhash/Documents/GitHub/Common Assets/custom.css
+---
+
+```{r, echo=FALSE, message=FALSE, error=FALSE}
+library(fontawesome)
+```
+
+
+
+We need to have a few things installed (if you don't have these on your system) before we start the course. If you have already installed these programs in the past, then make sure they are updated to the latest versions.
+
+####`r fa("save", fill="grey")` Install (`r fa("stopwatch", fill="grey")`: 1 hr)
+
+1. [Install R](https://cran.r-project.org/)
+2. [Install Rstudio](https://www.rstudio.com/products/rstudio/download/)
+3. Create an account and install [Slack](https://slack.com/downloads) and join the workspace for your class (check for invitation in your inbox, check spam if you don't see it)
+4. Create an account and install [zoom](https://zoom.us/download#client_4meeting)
+5. Create a [Github](https://github.com/) account and install the desktop client for [Github](https://desktop.github.com/)
+
+####`r fa("book-open", fill="grey")` Reading List (`r fa("stopwatch", fill="grey")`: 1 hr)
+
+
+
+####`r fa("clipboard-list", fill="grey")` Task List (`r fa("stopwatch", fill="grey")`: 1 hr)
