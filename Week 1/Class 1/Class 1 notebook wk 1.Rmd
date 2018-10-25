@@ -1,5 +1,5 @@
 ---
-title: 'Week 1: Getting Started'
+title: 'Class 1: Getting Started'
 author: |
   | Hari Subhash
   | Data Scientist @NRGI
@@ -11,7 +11,7 @@ output:
     theme: cosmo
   html_document:
     df_print: paged
-    includes: /Users/hsubhash/Documents/GitHub/Common Assets/header.html
-css: /Users/hsubhash/Documents/GitHub/Common Assets/custom.css
+    includes: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/header.html
+css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/custom.css
 ---
 

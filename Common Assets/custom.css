@@ -32,8 +32,8 @@ ul {
 }
 
 svg {
-  padding-left: 2px;
-  padding-right: 4px;
+  padding-left: 0.025em;
+  padding-right: 0.1em;
 }
 /* .author,
 .date {

@@ -1,0 +1,34 @@
+---
+title: 'Class 1: Getting Started'
+author: |
+  | Hari Subhash
+  | Data Scientist @NRGI
+date: "`r Sys.Date()`"
+output:
+  html_notebook:
+    highlight: kate
+    smart: yes
+    theme: cosmo
+  html_document:
+    df_print: paged
+    includes: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/header.html
+css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/custom.css
+---
+```{r, echo=FALSE, message=FALSE, error=FALSE}
+library(fontawesome)
+```
+
+####`r fa("bars", fill="grey")` Topics to cover
+1. What is programming?
+2. Get familiar with Studio 
+3. How do we write R programs?
+4. Data types
+    + Character, numeric, integer, boolean
+    + Factor
+5. Data structures
+6. Subsetting
+7. Functions
+8. Packages
+
+
+

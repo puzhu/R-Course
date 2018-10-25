@@ -3,7 +3,7 @@ title: 'Pre requisites'
 author: |
   | Hari Subhash
   | Data Scientist @NRGI
-date: "`r Sys.Date()`"
+date: "`r Sys.time()`"
 output:
   html_notebook:
     highlight: kate
@@ -11,28 +11,29 @@ output:
     theme: cosmo
   html_document:
     df_print: paged
-    includes: /Users/hsubhash/Documents/GitHub/Common Assets/header.html
-css: /Users/hsubhash/Documents/GitHub/Common Assets/custom.css
+    includes: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/header.html
+css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/custom.css
 ---
 
 ```{r, echo=FALSE, message=FALSE, error=FALSE}
 library(fontawesome)
+
+
 ```
 
 
+###`r fa("save", fill="grey")` Install fest (`r fa("stopwatch", fill="grey")`: 1 hr)
+We need to have a few things installed before we start the course. If you have already installed these programs, then make sure they are updated to the latest versions.
 
-We need to have a few things installed (if you don't have these on your system) before we start the course. If you have already installed these programs in the past, then make sure they are updated to the latest versions.
-
-####`r fa("save", fill="grey")` Install (`r fa("stopwatch", fill="grey")`: 1 hr)
-
-1. [Install R](https://cran.r-project.org/)
-2. [Install Rstudio](https://www.rstudio.com/products/rstudio/download/)
+1. Install [R](https://cran.r-project.org/)
+2. Install [Rstudio](https://www.rstudio.com/products/rstudio/download/)
 3. Create an account and install [Slack](https://slack.com/downloads) and join the workspace for your class (check for invitation in your inbox, check spam if you don't see it)
 4. Create an account and install [zoom](https://zoom.us/download#client_4meeting)
 5. Create a [Github](https://github.com/) account and install the desktop client for [Github](https://desktop.github.com/)
 
-####`r fa("book-open", fill="grey")` Reading List (`r fa("stopwatch", fill="grey")`: 1 hr)
+###`r fa("book-open", fill="grey")` Reading list 
 
+1. [R for cats](https://rforcats.net/) (`r fa("stopwatch", fill="grey")`: 2 hrs)
+2. [Benefits of versions control](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
-
-####`r fa("clipboard-list", fill="grey")` Task List (`r fa("stopwatch", fill="grey")`: 1 hr)
+###`r fa("clipboard-list", fill="grey")` Task list (`r fa("stopwatch", fill="grey")`: 1 hr)
