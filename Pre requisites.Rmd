@@ -17,8 +17,6 @@ css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/custom.css
 
 ```{r, echo=FALSE, message=FALSE, error=FALSE}
 library(fontawesome)
-
-
 ```
 
 
