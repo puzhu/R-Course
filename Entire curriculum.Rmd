@@ -1,0 +1,129 @@
+---
+title: 'R for beginners: Curriculum'
+output:
+  html_notebook:
+    highlight: kate
+    smart: yes
+    theme: cosmo
+  html_document:
+    df_print: paged
+    includes: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/header.html
+css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/custom.css
+---
+```{r, echo=FALSE, message=FALSE, error=FALSE}
+library(fontawesome)
+```
+##Week 1
+
+<div class="row">
+
+<div class="col-sm-2">
+###Learning Goals
+</div>
+<div class="col-md-10">
+<div class="col-sm-3">
+
+1. Understand the difference between human-human and human-computer communication
+
+</div>
+
+<div class="col-sm-3">
+
+2. Identify the types of data and the structures in which we can store them
+
+</div>
+
+<div class="col-sm-3">
+
+3. Extract values from different types of data structures
+
+</div>
+
+<div class="col-sm-3">
+
+4. Compose functions using pipes
+
+</div>
+
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-sm-2">
+
+###Pre-requisites
+
+</div>
+
+<div class="col-sm-6">
+
+<div>
+
+####`r fa("save", fill="grey")` Install fest (`r fa("stopwatch", fill="grey")`: 1 hr)
+
+1. Install [R](https://cran.r-project.org/) and [Rstudio](https://www.rstudio.com/products/rstudio/download/)
+2. Create an account and install [Slack](https://slack.com/downloads) and join the workspace for your class (check for invitation in your inbox, check spam if you don't see it)
+3. Create an account and install [zoom](https://zoom.us/download#client_4meeting)
+4. Create a [Github](https://github.com/) account and install the [desktop](https://desktop.github.com/) app
+
+</div>
+
+</div>
+<div class="col-sm-4">
+
+<div>
+
+####`r fa("book-open", fill="grey")` Reading list
+
+1. [R for cats](https://rforcats.net/) (`r fa("stopwatch", fill="grey")`: 2 hrs)
+2. [Benefits of versions control](https://www.atlassian.com/git/tutorials/what-is-version-control) (`r fa("stopwatch", fill="grey")`: 1 hr)
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="col-md-2">
+###Topics covered (`r fa("stopwatch", fill="grey")`: 3 hrs each)
+</div>
+
+<div class="col-md-5">
+
+<div>
+####`r fa("chalkboard-teacher", fill="grey")` Class 1
+
+1. What is programming?
+2. Get familiar with R Studio
+    + The many ways to write R code
+3. Variables
+4. Data types
+    + Character, numeric, integer, boolean
+    + Factor
+5. Data structures
+6. Subsetting
+
+</div>
+</div>
+
+<div class="col-md-5">
+<div>
+####`r fa("chalkboard-teacher", fill="grey")` Class 2
+
+1. Class 1 Revision
+2. Operators in R
+3. Basic math operations
+4. Advanced subsetting
+5. Functions
+6. Packages
+7. Tidyverse
+8. Pipes
+
+</div>
+
+</div>
+</div>
