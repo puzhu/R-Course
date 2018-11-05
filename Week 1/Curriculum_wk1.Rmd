@@ -122,6 +122,7 @@ library(fontawesome)
 6. Packages
 7. Tidyverse
 8. Pipes
+9. Week 1 Assignment
 
 </div>
 
