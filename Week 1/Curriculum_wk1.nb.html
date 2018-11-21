@@ -173,17 +173,17 @@ $(document).ready(function () {
 <div class="col-md-10">
 <div class="col-sm-3">
 <ol style="list-style-type: decimal">
-<li>Understand the difference between human-human and human-computer communication</li>
+<li>Distinguish between human-human and human-machine communication</li>
 </ol>
 </div>
 <div class="col-sm-3">
 <ol start="2" style="list-style-type: decimal">
-<li>Identify the types of data and the structures in which we can store them</li>
+<li>List data types and structures used in R</li>
 </ol>
 </div>
 <div class="col-sm-3">
 <ol start="3" style="list-style-type: decimal">
-<li>Extract values from different types of data structures</li>
+<li>Extract values from data structures</li>
 </ol>
 </div>
 <div class="col-sm-3">
@@ -201,10 +201,9 @@ $(document).ready(function () {
 <div>
 <h4 id="install-fest-1-hr"><svg style="height:0.8em;top:.04em;position:relative;fill:grey;" viewBox="0 0 448 512"><path d="M433.941 129.941l-83.882-83.882A48 48 0 0 0 316.118 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V163.882a48 48 0 0 0-14.059-33.941zM224 416c-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64zm96-304.52V212c0 6.627-5.373 12-12 12H76c-6.627 0-12-5.373-12-12V108c0-6.627 5.373-12 12-12h228.52c3.183 0 6.235 1.264 8.485 3.515l3.48 3.48A11.996 11.996 0 0 1 320 111.48z"></path></svg> Install fest (<svg style="height:0.8em;top:.04em;position:relative;fill:grey;" viewBox="0 0 448 512"><path d="M432 304c0 114.9-93.1 208-208 208S16 418.9 16 304c0-104 76.3-190.2 176-205.5V64h-28c-6.6 0-12-5.4-12-12V12c0-6.6 5.4-12 12-12h120c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-28v34.5c37.5 5.8 71.7 21.6 99.7 44.6l27.5-27.5c4.7-4.7 12.3-4.7 17 0l28.3 28.3c4.7 4.7 4.7 12.3 0 17l-29.4 29.4-.6.6C419.7 223.3 432 262.2 432 304zm-176 36V188.5c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12V340c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12z"></path></svg>: 1 hr)</h4>
 <ol style="list-style-type: decimal">
-<li>Install <a href="https://cran.r-project.org/">R</a> and <a href="https://www.rstudio.com/products/rstudio/download/">Rstudio</a></li>
-<li>Create an account and install <a href="https://slack.com/downloads">Slack</a> and join the workspace for your class (check for invitation in your inbox, check spam if you don’t see it)</li>
-<li>Create an account and install <a href="https://zoom.us/download#client_4meeting">zoom</a></li>
-<li>Create a <a href="https://github.com/">Github</a> account and install the <a href="https://desktop.github.com/">desktop</a> app</li>
+<li>Create an account at <a href="https://github.com/">Github</a>; <a href="https://zoom.us/signup">Zoom</a> is optional.</li>
+<li>Install <a href="https://cran.r-project.org/">R</a>, <a href="https://www.rstudio.com/products/rstudio/download/">Rstudio</a>, <a href="https://slack.com/downloads">Slack</a>, <a href="https://zoom.us/download#client_4meeting">Zoom</a> and <a href="https://desktop.github.com/">Github desktop</a></li>
+<li>Join the <a href="https://get.slack.help/hc/en-us/articles/212675257-Join-a-Slack-workspace">Slack workspace</a>. An email will be sent to you requesting you to join after you sign-up.</li>
 </ol>
 </div>
 </div>
@@ -230,14 +229,16 @@ $(document).ready(function () {
 <li>Get familiar with R Studio
 <ul>
 <li>The many ways to write R code</li>
+<li>Differences with R</li>
 </ul></li>
-<li>Variables</li>
+<li>Storing variables in R</li>
 <li>Data types
 <ul>
 <li>Character, numeric, integer, boolean</li>
 <li>Factor</li>
 </ul></li>
 <li>Data structures</li>
+<li>Deep dive into tabular data structures</li>
 <li>Subsetting</li>
 </ol>
 </div>
@@ -262,7 +263,7 @@ $(document).ready(function () {
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAnUiBmb3IgYmVnaW5uZXJzOiBDdXJyaWN1bHVtJwpvdXRwdXQ6CiAgaHRtbF9ub3RlYm9vazoKICAgIGhpZ2hsaWdodDoga2F0ZQogICAgc21hcnQ6IHllcwogICAgdGhlbWU6IGNvc21vCiAgaHRtbF9kb2N1bWVudDoKICAgIGRmX3ByaW50OiBwYWdlZAogICAgaW5jbHVkZXM6IC9Vc2Vycy9oc3ViaGFzaC9Eb2N1bWVudHMvR2l0SHViL1IgQ291cnNlL0NvbW1vbiBBc3NldHMvaGVhZGVyLmh0bWwKY3NzOiAvVXNlcnMvaHN1Ymhhc2gvRG9jdW1lbnRzL0dpdEh1Yi9SIENvdXJzZS9Db21tb24gQXNzZXRzL2N1c3RvbS5jc3MKLS0tCmBgYHtyLCBlY2hvPUZBTFNFLCBtZXNzYWdlPUZBTFNFLCBlcnJvcj1GQUxTRX0KbGlicmFyeShmb250YXdlc29tZSkKYGBgCiMjV2VlayAxCgo8ZGl2IGNsYXNzPSJyb3ciPgoKPGRpdiBjbGFzcz0iY29sLXNtLTIiPgojIyNMZWFybmluZyBHb2Fscwo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLW1kLTEwIj4KPGRpdiBjbGFzcz0iY29sLXNtLTMiPgoKMS4gVW5kZXJzdGFuZCB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIGh1bWFuLWh1bWFuIGFuZCBodW1hbi1jb21wdXRlciBjb21tdW5pY2F0aW9uCgo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbC1zbS0zIj4KCjIuIElkZW50aWZ5IHRoZSB0eXBlcyBvZiBkYXRhIGFuZCB0aGUgc3RydWN0dXJlcyBpbiB3aGljaCB3ZSBjYW4gc3RvcmUgdGhlbQoKPC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb2wtc20tMyI+CgozLiBFeHRyYWN0IHZhbHVlcyBmcm9tIGRpZmZlcmVudCB0eXBlcyBvZiBkYXRhIHN0cnVjdHVyZXMKCjwvZGl2PgoKPGRpdiBjbGFzcz0iY29sLXNtLTMiPgoKNC4gQ29tcG9zZSBmdW5jdGlvbnMgdXNpbmcgcGlwZXMKCjwvZGl2PgoKPC9kaXY+CjwvZGl2PgoKPGRpdiBjbGFzcz0icm93Ij4KCjxkaXYgY2xhc3M9ImNvbC1zbS0yIj4KCiMjI1ByZS1yZXF1aXNpdGVzCgo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbC1zbS02Ij4KCjxkaXY+CgojIyMjYHIgZmEoInNhdmUiLCBmaWxsPSJncmV5IilgIEluc3RhbGwgZmVzdCAoYHIgZmEoInN0b3B3YXRjaCIsIGZpbGw9ImdyZXkiKWA6IDEgaHIpCgoxLiBJbnN0YWxsIFtSXShodHRwczovL2NyYW4uci1wcm9qZWN0Lm9yZy8pIGFuZCBbUnN0dWRpb10oaHR0cHM6Ly93d3cucnN0dWRpby5jb20vcHJvZHVjdHMvcnN0dWRpby9kb3dubG9hZC8pCjIuIENyZWF0ZSBhbiBhY2NvdW50IGFuZCBpbnN0YWxsIFtTbGFja10oaHR0cHM6Ly9zbGFjay5jb20vZG93bmxvYWRzKSBhbmQgam9pbiB0aGUgd29ya3NwYWNlIGZvciB5b3VyIGNsYXNzIChjaGVjayBmb3IgaW52aXRhdGlvbiBpbiB5b3VyIGluYm94LCBjaGVjayBzcGFtIGlmIHlvdSBkb24ndCBzZWUgaXQpCjMuIENyZWF0ZSBhbiBhY2NvdW50IGFuZCBpbnN0YWxsIFt6b29tXShodHRwczovL3pvb20udXMvZG93bmxvYWQjY2xpZW50XzRtZWV0aW5nKQo0LiBDcmVhdGUgYSBbR2l0aHViXShodHRwczovL2dpdGh1Yi5jb20vKSBhY2NvdW50IGFuZCBpbnN0YWxsIHRoZSBbZGVza3RvcF0oaHR0cHM6Ly9kZXNrdG9wLmdpdGh1Yi5jb20vKSBhcHAKCjwvZGl2PgoKPC9kaXY+CjxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCjxkaXY+CgojIyMjYHIgZmEoImJvb2stb3BlbiIsIGZpbGw9ImdyZXkiKWAgUmVhZGluZyBsaXN0CgoxLiBbUiBmb3IgY2F0c10oaHR0cHM6Ly9yZm9yY2F0cy5uZXQvKSAoYHIgZmEoInN0b3B3YXRjaCIsIGZpbGw9ImdyZXkiKWA6IDIgaHJzKQoyLiBbQmVuZWZpdHMgb2YgdmVyc2lvbnMgY29udHJvbF0oaHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbS9naXQvdHV0b3JpYWxzL3doYXQtaXMtdmVyc2lvbi1jb250cm9sKSAoYHIgZmEoInN0b3B3YXRjaCIsIGZpbGw9ImdyZXkiKWA6IDEgaHIpCgo8L2Rpdj4KCjwvZGl2PgoKPC9kaXY+CgoKPGRpdiBjbGFzcz0icm93Ij4KCjxkaXYgY2xhc3M9ImNvbC1tZC0yIj4KIyMjVG9waWNzIGNvdmVyZWQgKGByIGZhKCJzdG9wd2F0Y2giLCBmaWxsPSJncmV5IilgOiAzIGhycyBlYWNoKQo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbC1tZC01Ij4KCjxkaXY+CiMjIyNgciBmYSgiY2hhbGtib2FyZC10ZWFjaGVyIiwgZmlsbD0iZ3JleSIpYCBDbGFzcyAxCgoxLiBXaGF0IGlzIHByb2dyYW1taW5nPwoyLiBHZXQgZmFtaWxpYXIgd2l0aCBSIFN0dWRpbwogICAgKyBUaGUgbWFueSB3YXlzIHRvIHdyaXRlIFIgY29kZQozLiBWYXJpYWJsZXMKNC4gRGF0YSB0eXBlcwogICAgKyBDaGFyYWN0ZXIsIG51bWVyaWMsIGludGVnZXIsIGJvb2xlYW4KICAgICsgRmFjdG9yCjUuIERhdGEgc3RydWN0dXJlcwo2LiBTdWJzZXR0aW5nCgo8L2Rpdj4KPC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb2wtbWQtNSI+CjxkaXY+CiMjIyNgciBmYSgiY2hhbGtib2FyZC10ZWFjaGVyIiwgZmlsbD0iZ3JleSIpYCBDbGFzcyAyCgoxLiBDbGFzcyAxIFJldmlzaW9uCjIuIE9wZXJhdG9ycyBpbiBSCjMuIEJhc2ljIG1hdGggb3BlcmF0aW9ucwo0LiBBZHZhbmNlZCBzdWJzZXR0aW5nCjUuIEZ1bmN0aW9ucwo2LiBQYWNrYWdlcwo3LiBUaWR5dmVyc2UKOC4gUGlwZXMKOS4gV2VlayAxIEFzc2lnbm1lbnQKCjwvZGl2PgoKPC9kaXY+CjwvZGl2Pg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAnUiBmb3IgYmVnaW5uZXJzOiBDdXJyaWN1bHVtJwpvdXRwdXQ6CiAgaHRtbF9ub3RlYm9vazoKICAgIGhpZ2hsaWdodDoga2F0ZQogICAgc21hcnQ6IHllcwogICAgdGhlbWU6IGNvc21vCiAgaHRtbF9kb2N1bWVudDoKICAgIGRmX3ByaW50OiBwYWdlZAogICAgaW5jbHVkZXM6IC9Vc2Vycy9oc3ViaGFzaC9Eb2N1bWVudHMvR2l0SHViL1IgQ291cnNlL0NvbW1vbiBBc3NldHMvaGVhZGVyLmh0bWwKY3NzOiAvVXNlcnMvaHN1Ymhhc2gvRG9jdW1lbnRzL0dpdEh1Yi9SIENvdXJzZS9Db21tb24gQXNzZXRzL2N1c3RvbS5jc3MKLS0tCmBgYHtyLCBlY2hvPUZBTFNFLCBtZXNzYWdlPUZBTFNFLCBlcnJvcj1GQUxTRX0KbGlicmFyeShmb250YXdlc29tZSkKYGBgCiMjV2VlayAxCgo8ZGl2IGNsYXNzPSJyb3ciPgoKPGRpdiBjbGFzcz0iY29sLXNtLTIiPgojIyNMZWFybmluZyBHb2Fscwo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLW1kLTEwIj4KPGRpdiBjbGFzcz0iY29sLXNtLTMiPgoKMS4gRGlzdGluZ3Vpc2ggYmV0d2VlbiBodW1hbi1odW1hbiBhbmQgaHVtYW4tbWFjaGluZSBjb21tdW5pY2F0aW9uCgo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbC1zbS0zIj4KCjIuIExpc3QgZGF0YSB0eXBlcyBhbmQgc3RydWN0dXJlcyB1c2VkIGluIFIKCjwvZGl2PgoKPGRpdiBjbGFzcz0iY29sLXNtLTMiPgoKMy4gRXh0cmFjdCB2YWx1ZXMgZnJvbSBkYXRhIHN0cnVjdHVyZXMKCjwvZGl2PgoKPGRpdiBjbGFzcz0iY29sLXNtLTMiPgoKNC4gQ29tcG9zZSBmdW5jdGlvbnMgdXNpbmcgcGlwZXMKCjwvZGl2PgoKPC9kaXY+CjwvZGl2PgoKPGRpdiBjbGFzcz0icm93Ij4KCjxkaXYgY2xhc3M9ImNvbC1zbS0yIj4KCiMjI1ByZS1yZXF1aXNpdGVzCgo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbC1zbS02Ij4KCjxkaXY+CgojIyMjYHIgZmEoInNhdmUiLCBmaWxsPSJncmV5IilgIEluc3RhbGwgZmVzdCAoYHIgZmEoInN0b3B3YXRjaCIsIGZpbGw9ImdyZXkiKWA6IDEgaHIpCgoxLiBDcmVhdGUgYW4gYWNjb3VudCBhdCBbR2l0aHViXShodHRwczovL2dpdGh1Yi5jb20vKTsgW1pvb21dKGh0dHBzOi8vem9vbS51cy9zaWdudXApIGlzIG9wdGlvbmFsLgoyLiBJbnN0YWxsIFtSXShodHRwczovL2NyYW4uci1wcm9qZWN0Lm9yZy8pLCBbUnN0dWRpb10oaHR0cHM6Ly93d3cucnN0dWRpby5jb20vcHJvZHVjdHMvcnN0dWRpby9kb3dubG9hZC8pLCBbU2xhY2tdKGh0dHBzOi8vc2xhY2suY29tL2Rvd25sb2FkcyksIFtab29tXShodHRwczovL3pvb20udXMvZG93bmxvYWQjY2xpZW50XzRtZWV0aW5nKSBhbmQgW0dpdGh1YiBkZXNrdG9wXShodHRwczovL2Rlc2t0b3AuZ2l0aHViLmNvbS8pCjMuIEpvaW4gdGhlIFtTbGFjayB3b3Jrc3BhY2VdKGh0dHBzOi8vZ2V0LnNsYWNrLmhlbHAvaGMvZW4tdXMvYXJ0aWNsZXMvMjEyNjc1MjU3LUpvaW4tYS1TbGFjay13b3Jrc3BhY2UpLiBBbiBlbWFpbCB3aWxsIGJlIHNlbnQgdG8geW91IHJlcXVlc3RpbmcgeW91IHRvIGpvaW4gYWZ0ZXIgeW91IHNpZ24tdXAuCgo8L2Rpdj4KCjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtc20tNCI+Cgo8ZGl2PgoKIyMjI2ByIGZhKCJib29rLW9wZW4iLCBmaWxsPSJncmV5IilgIFJlYWRpbmcgbGlzdAoKMS4gW1IgZm9yIGNhdHNdKGh0dHBzOi8vcmZvcmNhdHMubmV0LykgKGByIGZhKCJzdG9wd2F0Y2giLCBmaWxsPSJncmV5IilgOiAyIGhycykKMi4gW0JlbmVmaXRzIG9mIHZlcnNpb25zIGNvbnRyb2xdKGh0dHBzOi8vd3d3LmF0bGFzc2lhbi5jb20vZ2l0L3R1dG9yaWFscy93aGF0LWlzLXZlcnNpb24tY29udHJvbCkgKGByIGZhKCJzdG9wd2F0Y2giLCBmaWxsPSJncmV5IilgOiAxIGhyKQoKPC9kaXY+Cgo8L2Rpdj4KCjwvZGl2PgoKCjxkaXYgY2xhc3M9InJvdyI+Cgo8ZGl2IGNsYXNzPSJjb2wtbWQtMiI+CiMjI1RvcGljcyBjb3ZlcmVkIChgciBmYSgic3RvcHdhdGNoIiwgZmlsbD0iZ3JleSIpYDogMyBocnMgZWFjaCkKPC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb2wtbWQtNSI+Cgo8ZGl2PgojIyMjYHIgZmEoImNoYWxrYm9hcmQtdGVhY2hlciIsIGZpbGw9ImdyZXkiKWAgQ2xhc3MgMQoKMS4gV2hhdCBpcyBwcm9ncmFtbWluZz8KMi4gR2V0IGZhbWlsaWFyIHdpdGggUiBTdHVkaW8KICAgICsgVGhlIG1hbnkgd2F5cyB0byB3cml0ZSBSIGNvZGUKICAgICsgRGlmZmVyZW5jZXMgd2l0aCBSCjMuIFN0b3JpbmcgdmFyaWFibGVzIGluIFIKNC4gRGF0YSB0eXBlcwogICAgKyBDaGFyYWN0ZXIsIG51bWVyaWMsIGludGVnZXIsIGJvb2xlYW4KICAgICsgRmFjdG9yCjUuIERhdGEgc3RydWN0dXJlcwo2LiBEZWVwIGRpdmUgaW50byB0YWJ1bGFyIGRhdGEgc3RydWN0dXJlcwo3LiBTdWJzZXR0aW5nCgo8L2Rpdj4KPC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb2wtbWQtNSI+CjxkaXY+CiMjIyNgciBmYSgiY2hhbGtib2FyZC10ZWFjaGVyIiwgZmlsbD0iZ3JleSIpYCBDbGFzcyAyCgoxLiBDbGFzcyAxIFJldmlzaW9uCjIuIE9wZXJhdG9ycyBpbiBSCjMuIEJhc2ljIG1hdGggb3BlcmF0aW9ucwo0LiBBZHZhbmNlZCBzdWJzZXR0aW5nCjUuIEZ1bmN0aW9ucwo2LiBQYWNrYWdlcwo3LiBUaWR5dmVyc2UKOC4gUGlwZXMKOS4gV2VlayAxIEFzc2lnbm1lbnQKCjwvZGl2PgoKPC9kaXY+CjwvZGl2Pg==</div>
 
 
 

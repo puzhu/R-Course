@@ -45,10 +45,10 @@ svg {
   margin-bottom: 20px;
 }
 
-h3,
+/* h3,
 h4 {
   margin-top: 20px;
-}
+} */
 
 .footnotes li {
   font-size: 0.8em;
@@ -71,6 +71,10 @@ blockquote {
   font-family: Menlo, Monaco, "Courier New";
   background-color: rgba(90, 90, 90, 0.8);
   padding: 1px 1.5px 1px 1.5px;
+}
+
+.keyMessage {
+  background-color: rgb(234, 234, 234);
 }
 
 .row {

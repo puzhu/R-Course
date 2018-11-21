@@ -23,19 +23,19 @@ library(fontawesome)
 <div class="col-md-10">
 <div class="col-sm-3">
 
-1. Understand the difference between human-human and human-computer communication
+1. See the world from a computers eye
 
 </div>
 
 <div class="col-sm-3">
 
-2. Identify the types of data and the structures in which we can store them
+2. List data types and structures used in R
 
 </div>
 
 <div class="col-sm-3">
 
-3. Extract values from different types of data structures
+3. Extract values from data structures
 
 </div>
 
@@ -62,10 +62,9 @@ library(fontawesome)
 
 ####`r fa("save", fill="grey")` Install fest (`r fa("stopwatch", fill="grey")`: 1 hr)
 
-1. Install [R](https://cran.r-project.org/) and [Rstudio](https://www.rstudio.com/products/rstudio/download/)
-2. Create an account and install [Slack](https://slack.com/downloads) and join the workspace for your class (check for invitation in your inbox, check spam if you don't see it)
-3. Create an account and install [zoom](https://zoom.us/download#client_4meeting)
-4. Create a [Github](https://github.com/) account and install the [desktop](https://desktop.github.com/) app
+1. Create an account at [Github](https://github.com/); [Zoom](https://zoom.us/signup) is optional.
+2. Install [R](https://cran.r-project.org/), [Rstudio](https://www.rstudio.com/products/rstudio/download/), [Slack](https://slack.com/downloads), [Zoom](https://zoom.us/download#client_4meeting) and [Github desktop](https://desktop.github.com/)
+3. Join the [Slack workspace](https://get.slack.help/hc/en-us/articles/212675257-Join-a-Slack-workspace). An email will be sent to you requesting you to join after you sign-up.
 
 </div>
 
@@ -100,12 +99,14 @@ library(fontawesome)
 1. What is programming?
 2. Get familiar with R Studio
     + The many ways to write R code
-3. Variables
+    + Differences with R
+3. Storing variables in R
 4. Data types
     + Character, numeric, integer, boolean
     + Factor
 5. Data structures
-6. Subsetting
+6. Deep dive into tabular data structures
+7. Subsetting
 
 </div>
 </div>
