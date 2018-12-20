@@ -23,8 +23,9 @@ pre {
 }
 p,
 li {
-  font-size: 1em;
+  font-size: 0.95em;
   font-family: "Roboto", sans-serif;
+  line-height: 1.1em;
 }
 
 p,
@@ -45,11 +46,6 @@ svg {
   margin-bottom: 20px;
 }
 
-/* h3,
-h4 {
-  margin-top: 20px;
-} */
-
 .footnotes li {
   font-size: 0.8em;
 }
@@ -59,7 +55,6 @@ blockquote {
 }
 
 .highlight {
-  /* background-color: rgb(245, 216, 62); */
   background-color: rgba(233, 140, 94, 0.8);
   padding: 2px 4px 2px 4px;
   border-radius: 15px;
@@ -81,14 +76,9 @@ blockquote {
   margin-bottom: 10px;
 }
 .emphasize {
-  /* background-color: rgba(34, 34, 51, 0.8); */
   border: 2px solid rgb(0, 113, 184);
   padding: 1%;
-  /* margin-bottom: 8px; */
-  /* margin-top: 1px; */
-  /* margin: 0px 2px 0px 2px; */
   border-radius: 4px;
-  /* min-height: 240px; */
 }
 .emphasize li {
   color: rgb(50, 83, 148);
@@ -105,12 +95,6 @@ blockquote {
 
 .full-width {
   width: 100%;
-  /* width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw; */
 }
 
 .center-container {

@@ -1,0 +1,70 @@
+body {
+  line-height: 1.7em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Helvetica Neue";
+  color: rgb(0, 79, 128);
+}
+h4,
+h5,
+h6 {
+  font-family: "Helvetica";
+}
+h1 {
+  margin-bottom: 30px;
+}
+h2 {
+  text-decoration: underline;
+}
+h3 {
+  font-weight: 500;
+}
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  background-color: #f7f7f7;
+}
+p,
+li {
+  font-size: 0.95em;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  line-height: 1.2em;
+}
+
+.footnotes li {
+  font-size: 0.8em;
+}
+
+blockquote {
+  font-size: 0.9em;
+}
+
+.panelRow {
+  border-left: 2.5px solid rgb(0, 113, 184);
+}
+.panelRow li:hover {
+  /* text-decoration: underline; */
+  background-color: rgb(255, 236, 0);
+  cursor: default;
+  /* text-decoration-style: double; */
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.learningGoal p {
+  color: rgb(15, 15, 31);
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  border-bottom: 1px solid rgb(30, 32, 34);
+}
+
+.learningGoal:hover {
+  /* background-color: aliceblue; */
+}
+
+.title h3 {
+  margin-top: 0px;
+}

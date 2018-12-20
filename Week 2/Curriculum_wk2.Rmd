@@ -1,5 +1,5 @@
 ---
-title: 'Week 1'
+title: 'Week 2'
 output:
   html_notebook:
     highlight: kate
@@ -11,9 +11,11 @@ output:
     includes: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/header.html
 css: /Users/hsubhash/Documents/GitHub/R Course/Common Assets/curriculum.css
 ---
+
 ```{r, echo=FALSE, message=FALSE, error=FALSE}
 library(fontawesome)
 ```
+
 
 <div class="row">
 
@@ -23,32 +25,19 @@ library(fontawesome)
 
 <div class="col-sm-10 panelRow">
 <div class="col-sm-3 learningGoal">
-
-See through a machines eye
-
+Master the 5 dplyr verbs
 </div>
-
 <div class="col-sm-3 learningGoal">
-
-Master data types and structures
-
+Master the 5 dplyr verbs
 </div>
-
 <div class="col-sm-3 learningGoal">
-
-Subset data structures
-
+Master the 5 dplyr verbs
 </div>
-
 <div class="col-sm-3 learningGoal">
-
-Compose code with pipes
-
-</div>
-
+Master the 5 dplyr verbs
 </div>
 </div>
-
+</div>
 
 <div class="row">
 
@@ -57,27 +46,15 @@ Compose code with pipes
 </div>
 
 <div class="col-sm-10 panelRow">
-<div class="col-sm-6">
-
-####`r fa("save", fill="grey")` Install fest (`r fa("stopwatch", fill="grey")`: 1 hr)
-
-1. Create accounts at [Github](https://github.com/); [Zoom](https://zoom.us/signup) is optional.
-2. Install [R](https://cran.r-project.org/), [Rstudio](https://www.rstudio.com/products/rstudio/download/), [Slack](https://slack.com/downloads), [Zoom](https://zoom.us/download#client_4meeting) and [Github desktop](https://desktop.github.com/)
-3. Join the [Slack workspace](https://get.slack.help/hc/en-us/articles/212675257-Join-a-Slack-workspace)  for this course.[^1]
-
-[^1]: An email will be sent to you requesting you to join after you sign-up.
-
-</div>
-<div class="col-sm-6">
-
 ####`r fa("book-open", fill="grey")` Reading list
-1. [R for cats](https://rforcats.net/) (`r fa("stopwatch", fill="grey")`: 2 hrs)
+1. [The tidy tools manifesto](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html) (`r fa("stopwatch", fill="grey")`: 0.2 hr)
 2. [Benefits of version control](https://www.atlassian.com/git/tutorials/what-is-version-control) (`r fa("stopwatch", fill="grey")`: 1 hr)
-
+<!-- <div class="col-sm-6"> -->
+<!-- </div> -->
+<!-- <div class="col-sm-6"> -->
+<!-- </div> -->
 </div>
 </div>
-</div>
-
 
 <div class="row">
 
@@ -88,6 +65,22 @@ Compose code with pipes
 <div class="col-sm-10 panelRow">
 <div class="col-sm-6">
 ####`r fa("chalkboard-teacher", fill="grey")` Class 1 (`r fa("stopwatch", fill="grey")`: 3 hrs)
+
+1. Introduction to dplyr
+2. Tibbles
+3. Whats .data?
+4. R Studio
+    + The different parts
+    + The many ways to write R code
+    + R notebook deep dive
+5. Data types
+    + Character, numeric, integer, boolean
+    + Factor
+6. Data structures
+7. Subset vectors and data frames using indices
+</div>
+<div class="col-sm-6">
+####`r fa("chalkboard-teacher", fill="grey")` Class 2 (`r fa("stopwatch", fill="grey")`: 3 hrs)
 
 0. Introductions and housekeeping
 1. What is programming?
@@ -102,24 +95,6 @@ Compose code with pipes
     + Factor
 6. Data structures
 7. Subset vectors and data frames using indices
-</div>
-
-<div class="col-sm-6">
-####`r fa("chalkboard-teacher", fill="grey")` Class 2 (`r fa("stopwatch", fill="grey")`: 3 hrs)
-
-1. Class 1 Revision
-2. Operators in R
-3. Basic arithmetic and logical operations
-4. Advanced subsetting
-    + Using logical operators
-    + Lists
-5. Functions
-    + How do we call them?
-    + How do we assign parameters?
-6. Packages
-6. Introduction to [Tidyverse](https://www.tidyverse.org/)
-7. Compose operations using pipes
-8. Week 1 Assignment
 </div>
 </div>
 </div>
