@@ -102,15 +102,15 @@ Compose code with pipes
     + Factor
 6. Data structures
 7. Subset vectors and data frames using indices
+8. Operators in R
+9. Basic arithmetic and logical operations
 </div>
 
 <div class="col-sm-6">
 ####`r fa("chalkboard-teacher", fill="grey")` Class 2 (`r fa("stopwatch", fill="grey")`: 3 hrs)
 
 1. Class 1 Revision
-2. Operators in R
-3. Basic arithmetic and logical operations
-4. Advanced subsetting
+2. Advanced subsetting
     + Using logical operators
     + Lists
 5. Functions
